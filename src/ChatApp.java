@@ -187,7 +187,7 @@ public class ChatApp extends JFrame {
     // Thread initialize
     private void ThreadIni() {
         // TODO Auto-generated method stub
-        sendThread = new SendThread(0, this);
+        sendThread = new SendThread(this);
         receiveThread = new ReceiveThread(this);
     }
     
