@@ -9,7 +9,7 @@ public class SendThread {
     private int port = 0;
     private String message = "";
 
-    public SendThread(int port,ChatApp window) {
+    public SendThread(ChatApp window) {
         chatWindow = window;
     }
     
